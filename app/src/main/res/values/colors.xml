@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background color for app -->
+    <color name="tan_background">#B3E5FC</color>
+    <!-- Color for the Where to Eat category -->
+    <color name="category_toeat">#CC009688</color>
+    <!-- Color for the Where to Go category -->
+    <color name="category_togo">#CC9E9E9E</color>
+    <!-- Color for the Where to See category -->
+    <color name="category_tosee">#CCD1C4E9</color>
+    <!-- Color for the Where to Sleep category -->
+    <color name="category_tosleep">#CCB3E5FC</color>
+</resources>

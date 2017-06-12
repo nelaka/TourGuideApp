@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_item__half_height">44dp</dimen>
+    <dimen name="category_image_height">250dp</dimen>
+    <dimen name="small_padding">16dp</dimen>
+</resources>

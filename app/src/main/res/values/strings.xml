@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">A quick Thessaloniki\'s Tour Guide!</string>
+    <!-- Category names for Activities -->
+    <string name="category_where_to_eat">Where to Eat</string>
+    <string name="category_where_to_go">Where to Go</string>
+    <string name="category_where_to_see">What to See</string>
+    <string name="category_where_to_sleep">Where to Sleep</string>
+</resources>
