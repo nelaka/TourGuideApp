@@ -17,12 +17,12 @@ public class WhereToEatActivity extends AppCompatActivity {
         //Create an arrayList of places
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Kitchen", "Inside city's harbor ", "$$", R.drawable.kitchen_bar));
-        places.add(new Place("Ergon", "42 Pavlou Mela Str.", "$$", R.drawable.ergon));
-        places.add(new Place("Ionos", "3 Ionos Dragoumi Str.", "$$$", R.drawable.ionos));
-        places.add(new Place("Orizontes Roof Garden", "9 Aristotelous Square", "$$$"));
-        places.add(new Place("Clochard", "4 Proxenou Koromila Str.", "$$$$"));
-        places.add(new Place("The Last Slice", "1 Proxenou Koromila Str.", "$"));
+        places.add(new Place(getString(R.string.restaurant1), getString(R.string.eat_info1), getString(R.string.affordable), R.drawable.kitchen_bar));
+        places.add(new Place(getString(R.string.restaurant2), getString(R.string.eat_info2), getString(R.string.affordable), R.drawable.ergon));
+        places.add(new Place(getString(R.string.restaurant3), getString(R.string.eat_info3), getString(R.string.expensive), R.drawable.ionos));
+        places.add(new Place(getString(R.string.restaurant4), getString(R.string.eat_info4), getString(R.string.expensive)));
+        places.add(new Place(getString(R.string.restaurant5), getString(R.string.eat_info5), getString(R.string.very_expensive)));
+        places.add(new Place(getString(R.string.restaurant6), getString(R.string.eat_info6), getString(R.string.cheap)));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         PlaceAdapter adapter = new PlaceAdapter(this, places, R.color.category_toeat);

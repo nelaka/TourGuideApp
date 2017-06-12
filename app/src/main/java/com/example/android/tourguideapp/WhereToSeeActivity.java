@@ -17,10 +17,10 @@ public class WhereToSeeActivity extends AppCompatActivity {
         //Create an arrayList of places
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Archaeological Museum", "6 Manoli Andronikou Str.", R.drawable.museum_archeological));
-        places.add(new Place("Museum of Byzantine Culture", "2 Stratou Ave.", R.drawable.museum_byzantine));
-        places.add(new Place("Noesis - Science Center and Technology Museum", "6th Km Thessaloniki Rd. - Thermi", R.drawable.museum_noesis));
-        places.add(new Place("Jewish Museum", "11 Agiou Mina Str."));
+        places.add(new Place(getString(R.string.museum1), getString(R.string.see_info1), R.drawable.museum_archeological));
+        places.add(new Place(getString(R.string.museum2), getString(R.string.see_info2), R.drawable.museum_byzantine));
+        places.add(new Place(getString(R.string.museum3), getString(R.string.see_info3), R.drawable.museum_noesis));
+        places.add(new Place(getString(R.string.museum4), getString(R.string.see_info4)));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         PlaceAdapter adapter = new PlaceAdapter(this, places, R.color.category_tosee);

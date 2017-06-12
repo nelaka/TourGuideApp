@@ -5,4 +5,62 @@
     <string name="category_where_to_go">Where to Go</string>
     <string name="category_where_to_see">What to See</string>
     <string name="category_where_to_sleep">Where to Sleep</string>
+
+    <!-- Where To Eat -->
+    <string name="restaurant1">Kitchen</string>
+    <string name="eat_info1">Inside city\'s harbor</string>
+    <string name="restaurant2">Ergon</string>
+    <string name="eat_info2">42 Pavlou Mela Str.</string>
+    <string name="restaurant3">Ionos</string>
+    <string name="eat_info3">3 Ionos Dragoumi Str.</string>
+    <string name="restaurant4">Orizontes Roof Garden</string>
+    <string name="eat_info4">9 Aristotelous Square</string>
+    <string name="restaurant5">Clochard</string>
+    <string name="eat_info5">4 Proxenou Koromila Str.</string>
+    <string name="restaurant6">The Last Slice</string>
+    <string name="eat_info6">1 Proxenou Koromila Str.</string>
+
+    <!-- Where To Go -->
+    <string name="attraction1">Bezesteni Market</string>
+    <string name="go_info1">Venizelou Str. and Solomou Str.</string>
+    <string name="attraction2">White Tower</string>
+    <string name="go_info2">Leoforos Nikis Str.</string>
+    <string name="attraction3">Eptapirgio Castle</string>
+    <string name="go_info3">Eptapirgiou</string>
+    <string name="attraction4">Ladadika District</string>
+    <string name="go_info4">Katouni Str.</string>
+    <string name="attraction5">Arch of Galerius</string>
+    <string name="go_info5">144 Egnatia Str.</string>
+    <string name="attraction6">Monument of Alexander The Great</string>
+    <string name="go_info6">Megalou Alexandrou Ave.</string>
+
+    <!-- What To See -->
+    <string name="museum1">Archaeological Museum</string>
+    <string name="see_info1">6 Manoli Andronikou Str.</string>
+    <string name="museum2">Museum of Byzantine Culture</string>
+    <string name="see_info2">2 Stratou Ave.</string>
+    <string name="museum3">Noesis - Science Center and Technology Museum</string>
+    <string name="see_info3">6th Km Thessaloniki Rd. - Thermi</string>
+    <string name="museum4">Jewish Museum</string>
+    <string name="see_info4">11 Agiou Mina Str.</string>
+
+    <!-- Where To Sleep -->
+    <string name="hotel1">The Excelsior</string>
+    <string name="sleep_info1">10 Komninon Str.</string>
+    <string name="hotel2">Makedonia Palace</string>
+    <string name="sleep_info2">2 M Alexandrou Ave.</string>
+    <string name="hotel3">Colors Urban Hotel</string>
+    <string name="sleep_info3">13 Tsimiski Str.</string>
+    <string name="hotel4">Blue Bottle Boutique Hotel</string>
+    <string name="sleep_info4">16 Episkopou Amvrossiou Str.</string>
+    <string name="hotel5">The Caravan</string>
+    <string name="sleep_info5">1 Rebelou Str.</string>
+    <string name="hotel6">Daios Luxury Living</string>
+    <string name="sleep_info6">59 Leoforos Nikis Str.</string>
+
+    <!-- Prices categorization -->
+    <string name="cheap">$</string>
+    <string name="affordable">$$</string>
+    <string name="expensive">$$$</string>
+    <string name="very_expensive">$$$$</string>
 </resources>

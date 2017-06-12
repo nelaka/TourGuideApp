@@ -17,12 +17,12 @@ public class WhereToGoActivity extends AppCompatActivity {
         //Create an arrayList of places
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Bezesteni Market", "Venizelou Str. & Solomou Str.", R.drawable.go_bezesteni_market));
-        places.add(new Place("White Tower", "Leoforos Nikis Str.", R.drawable.go_white_tower));
-        places.add(new Place("Eptapirgio Castle", "Eptapirgiou", R.drawable.go_eptapirgio));
-        places.add(new Place("Ladadika District", "Katouni Str.", R.drawable.go_ladadika));
-        places.add(new Place("Arch of Galerius", "144 Egnatia Str.", R.drawable.go_arch_of_galerius));
-        places.add(new Place("Monument of Alexander The Great", "Megalou Alexandrou Ave", R.drawable.go_alexander_the_great));
+        places.add(new Place(getString(R.string.attraction1), getString(R.string.go_info1), R.drawable.go_bezesteni_market));
+        places.add(new Place(getString(R.string.attraction2), getString(R.string.go_info2), R.drawable.go_white_tower));
+        places.add(new Place(getString(R.string.attraction3), getString(R.string.go_info3), R.drawable.go_eptapirgio));
+        places.add(new Place(getString(R.string.attraction4), getString(R.string.go_info4), R.drawable.go_ladadika));
+        places.add(new Place(getString(R.string.attraction5), getString(R.string.go_info5), R.drawable.go_arch_of_galerius));
+        places.add(new Place(getString(R.string.attraction6), getString(R.string.go_info6), R.drawable.go_alexander_the_great));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         PlaceAdapter adapter = new PlaceAdapter(this, places, R.color.category_togo);

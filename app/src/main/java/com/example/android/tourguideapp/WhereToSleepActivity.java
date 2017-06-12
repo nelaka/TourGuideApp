@@ -18,12 +18,12 @@ public class WhereToSleepActivity extends AppCompatActivity {
         //Create an arrayList of places
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("The Excelsior", "10 Komninon Str.", "$$$", R.drawable.hotel_excelsior));
-        places.add(new Place("Makedonia Palace ", "2 M Alexandrou Ave", "$$$$", R.drawable.hotel_makedonia_palace));
-        places.add(new Place("Colors Urban Hotel", "13 Tsimiski Str.", "$$", R.drawable.hotel_colors));
-        places.add(new Place("Blue Bottle Boutique Hotel", "16 Episkopou Amvrossiou Str.", "$$", R.drawable.hotel_blue_bottle));
-        places.add(new Place("The Caravan", "1 Rebelou Str.", "$$", R.drawable.hotel_caravan));
-        places.add(new Place("Daios Luxury Living", "59 Leoforos Nikis Str.", "$$$$", R.drawable.hotel_daios));
+        places.add(new Place(getString(R.string.hotel1), getString(R.string.sleep_info1), getString(R.string.expensive), R.drawable.hotel_excelsior));
+        places.add(new Place(getString(R.string.hotel2), getString(R.string.sleep_info2), getString(R.string.very_expensive), R.drawable.hotel_makedonia_palace));
+        places.add(new Place(getString(R.string.hotel3), getString(R.string.sleep_info3), getString(R.string.affordable), R.drawable.hotel_colors));
+        places.add(new Place(getString(R.string.hotel4), getString(R.string.sleep_info4), getString(R.string.affordable), R.drawable.hotel_blue_bottle));
+        places.add(new Place(getString(R.string.hotel5), getString(R.string.sleep_info5), getString(R.string.affordable), R.drawable.hotel_caravan));
+        places.add(new Place(getString(R.string.hotel6), getString(R.string.sleep_info6), getString(R.string.very_expensive)));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         PlaceAdapter adapter = new PlaceAdapter(this, places, R.color.category_tosleep);
