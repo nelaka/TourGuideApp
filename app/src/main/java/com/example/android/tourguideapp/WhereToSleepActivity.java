@@ -23,7 +23,7 @@ public class WhereToSleepActivity extends AppCompatActivity {
         places.add(new Place(getString(R.string.hotel3), getString(R.string.sleep_info3), getString(R.string.affordable), R.drawable.hotel_colors));
         places.add(new Place(getString(R.string.hotel4), getString(R.string.sleep_info4), getString(R.string.affordable), R.drawable.hotel_blue_bottle));
         places.add(new Place(getString(R.string.hotel5), getString(R.string.sleep_info5), getString(R.string.affordable), R.drawable.hotel_caravan));
-        places.add(new Place(getString(R.string.hotel6), getString(R.string.sleep_info6), getString(R.string.very_expensive)));
+        places.add(new Place(getString(R.string.hotel6), getString(R.string.sleep_info6), getString(R.string.very_expensive), R.drawable.hotel_daios));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         PlaceAdapter adapter = new PlaceAdapter(this, places, R.color.category_tosleep);
